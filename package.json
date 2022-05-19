@@ -1,0 +1,9 @@
+{
+  "name": "react-ssr-with-webpack",
+  "version": "1.0.0",
+  "description": "React server side rendering with Webpack",
+  "scripts": {},
+  "keywords": [],
+  "author": "oalkabouss",
+  "license": "ISC"
+}
