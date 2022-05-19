@@ -2,8 +2,20 @@
   "name": "react-ssr-with-webpack",
   "version": "1.0.0",
   "description": "React server side rendering with Webpack",
-  "scripts": {},
+  "scripts": {
+	  "dev": "webpack --mode=development",
+    "start": "node ./dist/bundle.js"
+  },
   "keywords": [],
   "author": "oalkabouss",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  }
 }
